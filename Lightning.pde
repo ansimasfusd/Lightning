@@ -18,13 +18,18 @@ rect(0,0,width,height);
 */
 
 
+background(0); 
+
+
+fill(55,150,150);
+ellipse(100,100,50,50);
 
 stroke((int)(Math.random()*60),(int)(Math.random()*110),(int)(Math.random()*250));
 strokeWeight(3);
-background(0); 
 
  startX = 150;
  startY = 0;
+
 while (startX < 160)
 {
 endX = startX + (int)(Math.random()*19) - 9;
