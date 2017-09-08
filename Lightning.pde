@@ -49,7 +49,6 @@ startY = 0;
 endX = startX + (int)(Math.random()*19) - 9;
 endY = startY + (int)(Math.random()*9) + 1;
 background(255);
-delay(100);
 
 	redraw();
 }
